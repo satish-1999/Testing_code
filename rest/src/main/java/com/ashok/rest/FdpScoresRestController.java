@@ -11,6 +11,6 @@ public class FdpScoresRestController
 {
 	@GetMapping("/score")
 	public String getFpdScores(@RequestParam(value="ssn" , required=false, defaultValue ="23479")Long ssn) {
-		return "FPD is "+ssn;
+		return "FPD is best Possible"+ssn;
 	}
 }
